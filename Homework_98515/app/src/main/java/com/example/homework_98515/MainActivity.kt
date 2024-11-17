@@ -21,6 +21,7 @@ class MainActivity : ComponentActivity() {
             Homework_98515Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MoviesSeriesScreen(
+                        context = this,
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
